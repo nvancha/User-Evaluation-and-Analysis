@@ -13,13 +13,10 @@ The project is divided into two parts:
 ### Part A: ANOVA Test
 
 - **Q1:** Is there a significant difference in the time to finish a check-out task between VR training, coach training, or video training?
-- **Null Hypothesis (H0):** No significant difference in time across the three training methods.
-- **Alternative Hypothesis (H1):** VR training significantly reduces the time to finish a check-out compared to the other methods.
 
 ### Part B: Chi-Squared Test
 
 - **Q2:** Is there a significant difference in the training method preference among new employees of different age groups?
-- **Null Hypothesis (H0):** No significant difference in training method preference among age groups.
 
 ## Statistical Analysis
 
