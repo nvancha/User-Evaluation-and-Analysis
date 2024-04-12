@@ -6,7 +6,6 @@ This project evaluates the effectiveness and preferences of various training met
 
 - `Project3.xlsx`: Contains the raw data used in the analysis and the results of the statistical tests such as ANOVA and Chi-Squared tests.
 - `Project3Doc.docx`: Includes a detailed report of the methodologies, analysis process, and interpretations of the statistical results.
-- `README.md`: Provides an overview of the project, instructions, and other necessary documentation for users and contributors.
 
 ## Statistical Analysis Overview
 
