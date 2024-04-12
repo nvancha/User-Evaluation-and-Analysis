@@ -1,58 +1,35 @@
 # Training Approach Analysis Project
 
-This project aims to analyze the effectiveness and preference of different training methods—Virtual Reality (VR) training, coach-led training, and video training—among employees. It utilizes statistical tests to determine the most efficient training method and explores the preference for training methods across various age groups.
-
-## Overview
-
-The project is divided into two parts:
-- **Part A** focuses on the effectiveness of the training methods by analyzing the time to finish a check-out task.
-- **Part B** examines the preference for training methods among new employees of different age groups.
-
-## Analysis Questions and Hypotheses
-
-### Part A: ANOVA Test
-
-- **Q1:** Is there a significant difference in the time to finish a check-out task between VR training, coach training, or video training?
-
-### Part B: Chi-Squared Test
-
-- **Q2:** Is there a significant difference in the training method preference among new employees of different age groups?
-
-## Statistical Analysis
-
-### ANOVA Test
-- Conducted to compare the times to finish a check-out task for the different training methods.
-- **F-value and P-value:** Determined from the analysis (see `Project.xls`).
-
-### Scheffe Post Hoc Test
-- Conducted to perform pairwise comparisons between training methods.
-- **P-value:** Obtained for each pair to determine significant differences (see `Project.xls`).
-
-### Chi-Squared Test
-- Used to assess the preference for training methods among different age groups.
-- **Expected Values & Chi-Square Test Results:** Detailed in the attached `image.png`.
-
-## Conclusions
-
-- From the ANOVA test, the null hypothesis is rejected, indicating a significant difference in the effectiveness of training methods.
-- The Scheffe Post Hoc test results suggest significant differences between specific training methods.
-- The Chi-Squared test leads to rejecting the null hypothesis, showing that age influences training method preference.
-
-## Suggested Metrics
-
-- **Retention Rate:** Measures how effectively employees retain the skills and knowledge post-training.
-- **Measurement Method:** Follow-up assessments to evaluate the long-term retention of training.
+This project evaluates the effectiveness and preferences of various training methods—Virtual Reality (VR) training, coach-led training, and video training. Statistical analyses, such as ANOVA and Chi-Squared tests, have been conducted to compare the performance and appeal of these methods among employees of different age groups.
 
 ## Files and Directories
 
-- `README.md`: This file, containing an overview and analysis information.
-- `Project.xls`: Contains detailed statistical analysis results for the ANOVA and Scheffe Post Hoc tests.
-- `image.png`: Displays the results for the expected values and Chi-Squared test.
+- `Project3.xlsx`: Contains the raw data used in the analysis and the results of the statistical tests such as ANOVA and Chi-Squared tests.
+- `Project3Doc.docx`: Includes a detailed report of the methodologies, analysis process, and interpretations of the statistical results.
+- `README.md`: Provides an overview of the project, instructions, and other necessary documentation for users and contributors.
 
-## How to Run the Analysis
+## Statistical Analysis Overview
 
-1. Review the hypotheses and analysis questions in `README.md`.
-2. Open `Project.xls` to view the detailed statistical results and perform additional analysis if needed.
-3. Use statistical software to replicate the ANOVA and Chi-Squared tests using the data and methodologies outlined.
+The project's statistical component aims to answer two primary questions:
+
+1. Is there a significant difference in the time to finish a check-out task among VR training, coach training, or video training?
+2. Is there a preference for a specific training method among new employees of various age groups?
+
+## Hypotheses
+
+- **Null Hypothesis for ANOVA (H0)**: No significant difference in time across the three training methods.
+- **Alternative Hypothesis for ANOVA (H1)**: VR training significantly reduces the time to finish a check-out compared to the other methods.
+- **Null Hypothesis for Chi-Squared Test (H0)**: No significant preference for training methods among different age groups.
+
+## Conclusions
+
+The analyses led to the rejection of the null hypotheses, indicating significant differences in both the effectiveness of the training methods and the preferences of the employees based on their age group.
+
+## How to Use
+
+To review the analysis:
+1. Open `Project3.xlsx` to view the data and the results of the statistical tests.
+2. Consult `Project3Doc.docx` for a comprehensive report on the research questions, methodology, and detailed findings.
+
 
 ## Created by Nipuna Vancha
